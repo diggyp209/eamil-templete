@@ -4,10 +4,10 @@ body, html {
     width: 100%;
 }
 .my-col {
-    border: 3px solid red;
+    border: 3px solid grey;
 }
 .my-row{
-    border: 3px solid red;
+    border: 3px solid black;
     height: 60px;
 }
 .my-container {
@@ -15,6 +15,17 @@ body, html {
     height: 50%;
 }
 .email-type {
-    width: 17.2%;
+    /* width: 17.2%; */
     height: 85%;
+    background-color: gray;
+}
+.nav-item {
+    border: 1px solid black;
+    max-width: 100%;
+    background-color: white;
+}
+.msg-box {
+    background-color: white;
+    height: 16%;
+    border: 1px solid black;
 }
