@@ -4,20 +4,21 @@ body, html {
     width: 100%;
 }
 .my-col {
-    border: 3px solid grey;
+    border: 3px solid grey; 
+    justify-content:center; 
 }
 .my-row{
     border: 3px solid black;
     height: 60px;
 }
-.my-container {
-    border: 1px solid black;
-    height: 70%;
+.my-container { 
+   
+  height: 80%;
 }
 .email-type {
     /* width: 17.2%; */
-    height: 85%;
-    background-color: gray;
+    height:100%
+    
 }
 .nav-item {
     border: 1px solid black;
