@@ -2,18 +2,19 @@ body, html {
     margin: 30px;
     height: 100%;
     width: 100%;
+    background-color: aqua;
 }
 .my-col {
-    border: 3px solid grey; 
+    /*border: 3px solid grey; */
     justify-content:center; 
 }
 .my-row{
-    border: 3px solid black;
+   /* border: 3px solid black;*/
     height: 60px;
 }
 .my-container { 
    
-  height: 80%;
+  height: 100%;
 }
 .email-type {
     /* width: 17.2%; */
@@ -24,11 +25,14 @@ body, html {
     border: 1px solid black;
     max-width: 100%;
     background-color: white;
+    border-radius: 5px;
 }
 .msg-box {
     background-color: white;
     height: 10%;
     border: 1px solid black;
+    overflow: hidden;
+    border-radius:5px
 }
 .trash-bin {
     background-color: white;
@@ -36,3 +40,10 @@ body, html {
     width: 50%;
     border: 1px solid black;
 }
+.prev {
+    height: 60%;
+    overflow: auto;
+    padding-top: 2%;
+    padding-left:1%
+    
+}   
