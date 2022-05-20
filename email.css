@@ -2,23 +2,30 @@ body, html {
     margin: 30px;
     height: 100%;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(172, 171, 171);
+    
 }
 .my-col {
     /*border: 3px solid grey; */
     justify-content:center; 
+    border-radius: 5px;
+    background-color: white;
+    
 }
 .my-row{
    /* border: 3px solid black;*/
     height: 60px;
+    
 }
 .my-container { 
    
   height: 100%;
+  
 }
 .email-type {
     /* width: 17.2%; */
     height:100%
+    
     
 }
 .nav-item {
@@ -46,4 +53,10 @@ body, html {
     padding-top: 2%;
     padding-left:1%
     
-}   
+    
+    
+}  
+.card-img-bottom {
+     width: 150px;
+     height: 100px;
+} 
