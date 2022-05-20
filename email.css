@@ -41,12 +41,7 @@ body, html {
     overflow: hidden;
     border-radius:5px
 }
-/*.trash-bin*/ {
-    background-color: white;
-    height: 16%;
-    width: 50%;
-    border: 1px solid black;
-}
+
 .prev {
     height: 60%;
     overflow: scroll;
