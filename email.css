@@ -14,7 +14,7 @@ body, html {
 }
 .my-row{
    /* border: 3px solid black;*/
-    height: 60px;
+    height: 40px;
     
 }
 .my-container { 
@@ -41,7 +41,7 @@ body, html {
     overflow: hidden;
     border-radius:5px
 }
-.trash-bin {
+/*.trash-bin*/ {
     background-color: white;
     height: 16%;
     width: 50%;
@@ -49,7 +49,7 @@ body, html {
 }
 .prev {
     height: 60%;
-    overflow: auto;
+    overflow: scroll;
     padding-top: 2%;
     padding-left:1%
     
